@@ -1449,8 +1449,8 @@ label {
 
 .hero {
 	text-align: center;
-	padding-top: 48px;
-	padding-bottom: 88px
+	/* padding-top: 48px; */
+	padding-bottom: -50px !important;
 }
 
 .hero-copy {
@@ -1598,7 +1598,8 @@ label {
 
 .features-wrap {
 	max-width: 540px;
-	margin: 0 auto
+	margin: 0 auto;
+	margin-top: -10% !important;
 }
 
 .features-image {
