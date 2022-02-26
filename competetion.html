@@ -9,9 +9,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="dist/css/navbar.css">
 	<link rel="stylesheet" href="dist/css/style.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="dist/css/media.css">
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 </head>
@@ -34,30 +37,34 @@
 
 	<!-- <div class="hero-anime"> -->
 
-	<nav class="navbar sticky-top navbar-expand-md bg-light" id="navbar-example2">
-		<!-- <a class="navbar-brand px-10 py-20" href="#"></a> -->
-		<a class="navbar-brand" href="#" target="_blank" style="position: absolute; margin-left: 5%;"><img
-				src="src/images/kritarth logo 6.0.png" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			<span class="navbar-toggler-icon navbar-dark"><i class="fas fa-bars"></i></span>
-		</button>
-		<div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
-			<ul class="navbar-nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#sysm">Register Now!</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#maps">Competition</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#preb">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+		<nav class="navbar sticky-top navbar-expand-md bg-light" id="navbar-example2">
+			<!-- <a class="navbar-brand" href="#"></a> -->
+			<a class="navbar-brand BRAND" href="index.html" target="_blank" style="position: absolute; margin-left: 5%;"><img
+					src="src/images/kritarth logo 6.0.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon navbar-dark"><i class="fas fa-bars"></i></span>
+					</button>
+					<div class="collapse navbar-collapse NAVBAR" id="collapsibleNavbar">
+			<!-- <div class="collapse navbar-collapse d-flex justify-content-center NAVBAR" id="collapsibleNavbar"> -->
+				<ul class="navbar-nav nav-pills">
+					<li class="nav-item active-element">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutv2.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sysm">Register Now!</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="competetion.html">Competition</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#CONTACT-US">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 
 	<!-- <div class="section full-height">
@@ -105,7 +112,7 @@
 		<div class="features-header text-center my-0">
 			<div class="container-sm">
 
-				<div class="features-image" style="margin-left: 10% !important;">
+				<div class="features-image" style="margin-left: 2% !important;">
 					<img class="asset-light " src="src/images/compe-light.png" alt="Feature illustration top">
 					<img class="asset-dark " src="src/images/compe-dark.png" alt="Feature illustration top">
 
@@ -115,7 +122,7 @@
 
          
 
-		<section class="d-flex justify-content-center my-5">
+		<section class="d-flex justify-content-center my-5" id="DEVIL">
 			<!-- Button trigger modal -->
 			<button type="button" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#exampleModalLong"
 				style="height: 350px; width: 750px;">
@@ -314,7 +321,7 @@
 						</div>
 						<div class="modal-body">
 							<img src="./src/images/event-poster-white - Copy.png" alt="">
-							<p>#YourTimeIsNow</p>
+							<p><strong>#YourTimeIsNow</strong></p>
 
 							<p>Do you consider yourself a people person? Do you believe you have what it takes to
 								persuade others to become your customers? If you believe you have a way with people,
@@ -800,33 +807,37 @@
 				</ul>
 				<ul class="footer-social-links list-reset">
 					<li>
-						<a href="#">
+						<a href="https://www.facebook.com/kritarth.kiit/">
 							<span class="screen-reader-text">Facebook</span>
-							<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<!-- <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
 								<path
 									d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
 									fill="#FFF" />
-							</svg>
+							</svg> -->
+							<i class="fa-brands fa-facebook text-light fa-2xl"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<span class="screen-reader-text">Twitter</span>
-							<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+						<a href="https://www.instagram.com/kritarth.kiit/?hl=en">
+							<span class="screen-reader-text">Instagram</span>
+							<!-- <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
 								<path
 									d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
 									fill="#FFF" />
-							</svg>
+							</svg> -->
+							<i class="fa-brands fa-instagram text-light fa-2xl"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<span class="screen-reader-text">Google</span>
-							<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+						<a href="https://www.linkedin.com/in/kritarthkiit/?originalSubdomain=in">
+							<span class="screen-reader-text ">Linkedin</span>
+							<i class="fa-brands fa-linkedin text-light fa-2xl"></i>
+							<!-- <i class="fab fa-linkedin-in" aria-hidden="true"></i> -->
+							<!-- <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
 								<path
 									d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
 									fill="#FFF" />
-							</svg>
+							</svg> -->
 						</a>
 					</li>
 				</ul>

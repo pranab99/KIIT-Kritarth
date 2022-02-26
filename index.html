@@ -10,115 +10,53 @@
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="dist/css/navbar.css">
 	<link rel="stylesheet" href="dist/css/style.css">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="./src/scss/components/timeline.css">
+	<link rel="stylesheet" href="dist/css/media.css">
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
 <body class="is-boxed has-animations">
+
+	<nav class="navbar sticky-top navbar-expand-md bg-light" id="navbar-example2" style="z-index: z !important;">
+		<!-- <a class="navbar-brand" href="#"></a> -->
+		<a class="navbar-brand BRAND" href="index.html" target="_blank" style="position: absolute; margin-left: 5%;"><img
+				src="src/images/kritarth logo 6.0.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon navbar-dark"><i class="fas fa-bars"></i></span>
+				</button>
+				<div class="collapse navbar-collapse NAVBAR" id="collapsibleNavbar">
+		<!-- <div class="collapse navbar-collapse d-flex justify-content-center NAVBAR" id="collapsibleNavbar"> -->
+			<ul class="navbar-nav nav-pills">
+				<li class="nav-item active-element">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutv2.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#sysm">Register Now!</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="competetion.html">Competition</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#CONTACT-US">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
 	<div class="">
 		<header class="site-header">
-			<!-- <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
-								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div> -->
 
 			<div class="hero-anime">
-
-				<div class="navigation-wrap bg-light start-header start-style">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<nav class="navbar navbar-expand-md navbar-light">
-
-									<a class="navbar-brand" href="#" target="_blank"><img
-											src="src/images/kritarth logo 6.0.png" alt=""></a>
-
-									<button class="navbar-toggler" type="button" data-toggle="collapse"
-										data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-										aria-expanded="false" aria-label="Toggle navigation">
-										<span class="navbar-toggler-icon"></span>
-									</button>
-
-									<div class="collapse navbar-collapse" id="navbarSupportedContent">
-										<ul class="navbar-nav m-auto py-3 py-md-0">
-
-											<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#">Portfolio</a>
-								</li> -->
-											<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-												<a class="nav-link" href="#">Home</a>
-											<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-												<a class="nav-link" href="aboutv2.html">About</a>
-											</li>
-											<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-												<a class="nav-link" href="#">Register Now!</a>
-											</li>
-											<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-												<a class="nav-link" href="#">Competetions</a>
-											</li>
-
-											<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#">Journal</a>
-								</li> -->
-											<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-												<a class="nav-link" href="#">Contact Us</a>
-											</li>
-										</ul>
-									</div>
-
-								</nav>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<!-- <div class="section full-height">
-		<div class="absolute-center">
-			<div class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-				<h1><span>B</span><span>o</span><span>o</span><span>t</span><span>s</span><span>t</span><span>r</span><span>a</span><span>p</span> <span>4</span><br>
-				<span>m</span><span>e</span><span>n</span><span>u</span></h1>
-				<p>scroll for nav animation</p>	
-						</div>	
-					</div>		
-				</div>		
-			</div>
-			<div class="section mt-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div id="switch">
-								<div id="circle"></div>
-							</div>
-						</div>	
-					</div>		
-				</div>			
-			</div>
-		</div>
-	</div> -->
-				<!-- <div class="my-5 py-5"> -->
-
-
-				<!-- Link to page
-================================================== -->
-				<!-- 
-	<a href="https://front.codes/" class="logo" target="_blank">
-		<img src="https://assets.codepen.io/1462889/fcy.png" alt="">
-	</a> -->
-
 			</div>
 
 		</header>
@@ -157,12 +95,6 @@
 								<img class="hero-media-illustration-image asset-dark"
 									src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
 							</div>
-							<!-- <div>
-							<img class="hero-media-image asset-light" src="dist/images/hero-media-light.svg"
-								alt="Hero media">
-							<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg"
-								alt="Hero media">
-						</div> -->
 						</div>
 					</div>
 				</div>
@@ -173,15 +105,6 @@
 				<div class="container-sm" style="margin-top: -15% !important;">
 
 					<div class="features-image" style="margin-left: 10% !important;">
-						<!-- <img class="asset-dark" src="src/images/events-poster.png" alt="Feature illustration"> -->
-						<!-- <img class="features-box asset-dark" src=""
-						alt="Feature box">
-					<img class="features-illustration asset-dark"
-						src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
-					<img class="features-illustration asset-light"
-						 alt="Feature illustration">
-					<img class="features-box asset-light" src="dist/images/features-box-light.svg"
-						alt="Feature box"> -->
 						<img class="asset-light " src="src/images/events-poster.png" alt="Feature illustration top">
 						<img class="asset-dark " src="src/images/event-poster-white.png" alt="Feature illustration top">
 
@@ -191,127 +114,13 @@
 
 			<section class="feature section" style="margin-left: 2%;">
 				<div style="margin-top: -10% !important;">
-					<!-- <div class="features-inner section-inner has-bottom-divider">
-				
-					<div class="features-wrap">
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
-									<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">DEVIL’S ADVOCATE</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
-									<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">KLICK IT</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-									<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">ROCKET SINGH</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-									<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">KRITARTH'S GOT TALENT</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-									<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">KANVASSING</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-									<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">KOSTUMBRE</a>
-								</div>
-							</div>
-						</div>
-						<div class="feature is-revealing">
-							<div class="feature-inner">
-								<div class="feature-icon">
-									<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-									<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-								</div>
-								<div class="feature-content">
-									<a href="" class="feature-title mt-0">TECH WARZ</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-					<!-- <div >
-					<ul class="timeline">
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>
-						</li>
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>
-						</li>
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>
-						</li>
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>
-						</li>
-
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>
-						</li>
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>		
-						</li>
-						<li class="event" data-date="2021">
-
-							<h3>Squareflair Today</h3>		
-						</li>
-					</ul>
-				</div> -->
 					<div id="timeline-content">
 
 
 						<ul class="timeline">
 							<li class="event">
-								<a href="">
+								<!-- <a href="http://server/competeition.html#exampleModalLong"> -->
+								<a href="http://127.0.0.1:5501/competetion.html#DEVIL">
 									<h3> DEVIL'S ADVOCATE</h3>
 								</a>
 
@@ -366,11 +175,6 @@
 					<div class="cta-inner section-inner">
 						<div class="cta-header text-center">
 							<h2 class="section-title mt-0">Powered by:</h2>
-							<!-- <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the
-							graphic elements of a document or visual presentation.</p>
-						<div class="cta-cta">
-							<a class="button button-primary" href="#">Buy it now</a>
-						</div> -->
 
 							<img class="img-fluid" src="./src/images/kiit-logo.png" alt="">
 						</div>
@@ -379,7 +183,7 @@
 			</section>
 		</main>
 
-		<footer class="site-footer has-top-divider">
+		<footer class="site-footer has-top-divider" id="CONTACT-US">
 			<div class="container">
 				<div class="site-footer-inner">
 					<div class="brand footer-brand">
@@ -404,44 +208,41 @@
 					</ul>
 					<ul class="footer-social-links list-reset">
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/kritarth.kiit/">
 								<span class="screen-reader-text">Facebook</span>
-								<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
-										fill="#FFF" />
-								</svg>
+								<i class="fa-brands fa-facebook text-light fa-2xl"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#">
-								<span class="screen-reader-text">Twitter</span>
-								<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
-										fill="#FFF" />
-								</svg>
+							<a href="https://www.instagram.com/kritarth.kiit/?hl=en">
+								<span class="screen-reader-text">Instagram</span>
+								<i class="fa-brands fa-instagram text-light fa-2xl"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#">
-								<span class="screen-reader-text">Google</span>
-								<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-										fill="#FFF" />
-								</svg>
+							<a href="https://www.linkedin.com/in/kritarthkiit/?originalSubdomain=in">
+								<span class="screen-reader-text ">Linkedin</span>
+								<i class="fa-brands fa-linkedin text-light fa-2xl"></i>
 							</a>
 						</li>
 					</ul>
-					<div class="footer-copyright">&copy; 2018 Switch, all rights reserved</div>
+					<div class="footer-copyright text-light">&copy; Web Team, Kritarth, 2022</div>
 				</div>
 			</div>
 		</footer>
 	</div>
 
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+	</script>
 	<script src="dist/js/main.min.js"></script>
-	<script src="src/js/navbar.js"></script>
+	<!-- <script src="src/js/navbar.js"></script> -->
 
 </body>
 

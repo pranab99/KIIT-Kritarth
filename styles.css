@@ -541,7 +541,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* #Media
 ================================================== */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	h1 {
 		font-size: 38px;
 	}
@@ -606,7 +606,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		background-color: transparent;
 		box-shadow: none;
 	}
-}
+} */
 
 /* #Link to page
 ================================================== */
