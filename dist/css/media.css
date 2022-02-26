@@ -1,3 +1,13 @@
+.footer-copyright {
+    box-shadow: 0px 0 10px #eee;
+    padding: 4vmin;
+    margin-top: 5vh;
+    font-size: 16px;
+    border-top: 1px solid #bab86c;
+}
+
+
+
 @media only screen and (min-width: 768px) {
     .NAVBAR{
         display: flex;
