@@ -31,6 +31,9 @@
     .BRAND{
         display: none !important;
     }
+    .timeline{
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 572px) {
@@ -40,13 +43,11 @@
     .site-header::before{
         display: none !important;
     }
-    /* nav a{
-        position: relative;
-        padding: 0px !important;
-        margin: 0px !important;
-    } */
     .BRAND{
         display: none !important;
+    }
+    .timeline{
+        max-width: 100%;
     }
 }
 
