@@ -2,10 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
     scroll-behavior: smooth;
   }
-
   
 .active-element{
 	/* background-color: rgb(143, 214, 168); */

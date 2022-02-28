@@ -1,7 +1,46 @@
 /*General*/
+
+/* navbar css */
+.active-element{
+	/* background-color: rgb(143, 214, 168); */
+  /* background-color: #e97867; */
+  /* background-color: #29B6F6; */
+  background-color: pink;
+  
+	/* text-decoration-color: white; */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #d84d4d;
+}
+
+
+  .navbar .navbar-brand {
+    color: black;
+  }
+  
+  .navbar .nav-link {
+    color: #414141;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #d84d4d;
+  }
+  
+  .navbar .nav-link.active:hover {
+    color: #fff;
+  }
+
+  .navbar .nav-item {
+    padding: 10px 20px;
+  }
+
 body{
     overflow-x: hidden;
     font-family: 'Montserrat';
+    font-family: "Quicksand", sans-serif;
+    scroll-behavior: smooth;
     
 }
 html,body{
@@ -24,7 +63,7 @@ h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
 p{
-    color: #aeaeae;
+    /* color: #aeaeae; */
     cursor: default;
     font-family: 'Montserrat', sans-serif;
     font-size: medium;

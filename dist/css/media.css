@@ -8,7 +8,6 @@
 
 
 
-
 @media only screen and (min-width: 768px) {
     .NAVBAR{
         display: flex;
@@ -17,12 +16,30 @@
    
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 912px) {
+    .header-illustration-image{
+        display: none !important;
+    }
+
+    .hero-media-illustration-image{
+        display: none;
+    }
+
     .cta::before{
         display: none !important;
     }
-    .site-header::before{
+
+    /* .header-illustration-image{
         display: none !important;
+    } */
+
+    .INFO{
+        margin-right: 0px !important;
+        /* display: none; */
+        padding-right: 20px !important;
+        font-size: xx-small;
+        justify-content: center;
+        align-items: center;
     }
 
     /* nav a{
@@ -40,8 +57,8 @@
     		display: none !important;
     }
     .dank-boton{
-        margin-top: -50px !important;
-        padding-top: 0% !important;
+        padding-top: -80px !important;
+        /* padding-top: 0% !important; */
     }
     
     
@@ -64,8 +81,21 @@
      	display: none !important;
      }
      .dank-boton {
-     	margin-top: -50px !important;
-     	padding-top: 0% !important;
+     	padding-top: -80px !important;
+     	/* padding-top: 0% !important; */
      }
+     .header-illustration-image{
+        display: none !important;
+    }
+    /* .asset-dark{
+        display: none !important;
+    } */
+    .INFO{
+        margin-right: 0px !important;
+        margin-left: -20px !important;
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
