@@ -1396,7 +1396,7 @@ label {
 }
 
 .site-header::before {
-	content: '';
+
 	position: absolute;
 	top: -140px;
 	right: -100px;

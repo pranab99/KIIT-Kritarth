@@ -1,7 +1,7 @@
 /*General*/
 body{
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif; !important;
+    font-family: 'Montserrat';
     
 }
 html,body{
@@ -493,7 +493,7 @@ li.menu-item{
 #beta-third hr{
     margin-top: -55px !important;
     margin-bottom: 50px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #beta-third .container div:first-child{
@@ -550,7 +550,7 @@ li.menu-item{
 #beta-fourth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #beta-fourth span{
@@ -604,7 +604,7 @@ li.menu-item{
 #beta-fifth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #beta-fifth > span{
@@ -681,7 +681,7 @@ li.menu-item{
 #beta-ninth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #beta-ninth span{
@@ -885,7 +885,7 @@ h1#not-found{
 }
 #about-second hr{
     margin-top: -9vh !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-second .third {
@@ -944,7 +944,7 @@ h1#not-found{
 #about-third hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-third img{
@@ -976,7 +976,7 @@ h1#not-found{
 #about-fourth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-fourth > span{
@@ -1011,7 +1011,7 @@ h1#not-found{
 #about-fifth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-fifth > span{
@@ -1037,7 +1037,7 @@ h1#not-found{
 #about-sixth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-sixth > span{
@@ -1088,7 +1088,7 @@ h1#not-found{
 #about-seventh hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #about-seventh > span{
@@ -1167,7 +1167,7 @@ h1#not-found{
 #contact-second hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #contact-second label{
@@ -1212,7 +1212,7 @@ h1#not-found{
 #contact-third hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #contact-third span{
@@ -1270,7 +1270,7 @@ h1#not-found{
 #contact-fourth hr{
     margin-top: -55px !important;
     margin-bottom: 20px !important;
-    border-top: 10px solid #bab86c !important;
+    border-top: 10px solid #DF624E !important;
     width: 50px !important;
 }
 #contact-fourth span{
@@ -1430,7 +1430,7 @@ h1#not-found{
 }
 #committees-second hr:nth-of-type(2){
     width: 5%;
-    border-top: 10px solid #bab86c;
+    border-top: 10px solid #DF624E;
     margin-top: -4px;
     float: left;
     margin-right: 95%;
@@ -1550,7 +1550,7 @@ h1#not-found{
 #blogs-second div.blogs-container .blogs hr{
     width: 25%;
     margin-left: 0;
-    border-bottom: 3px solid #bab86c;
+    border-bottom: 3px solid #DF624E;
     margin-bottom: 30px;
 }
 #blogs-second div.blogs-grid{
@@ -1624,7 +1624,7 @@ h1#not-found{
 }
 #single div.single-container .single-text hr:nth-of-type(1){
     width:60%; 
-    border-color: #bab86c; 
+    border-color: #DF624E;
     margin-left: 0;
 }
 #single div.single-container .single-text hr:nth-of-type(2){
